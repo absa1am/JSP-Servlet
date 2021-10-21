@@ -20,7 +20,7 @@
         <link rel="stylesheet" type="text/css" href="css/styles.css" />
     </head>
     <body>
-        <!-- Navigation-->
+		<!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
             <div class="container px-4 px-lg-5">
                 <a class="navbar-brand" href="http://localhost:8080/JSP-Servlet/Home">Start Bootstrap</a>
@@ -31,8 +31,18 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="http://localhost:8080/JSP-Servlet/Home">Home</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="http://localhost:8080/JSP-Servlet/About">About</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="http://localhost:8080/JSP-Servlet/Post">Sample Post</a></li>
+                        <!-- Example single danger button -->
+						<li class="nav-item dropdown">
+						    <a class="nav-link px-lg-3 py-3 py-lg-4 dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">Posts</a>
+						    <ul class="dropdown-menu">
+						      <li><a class="dropdown-item" href="#">Action</a></li>
+						      <li><a class="dropdown-item" href="#">Another action</a></li>
+						      <li><a class="dropdown-item" href="#">Something else here</a></li>
+						      <li><hr class="dropdown-divider"></li>
+						      <li><a class="dropdown-item" href="#">Separated link</a></li>
+						    </ul>
+						  </li>
+						<li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="http://localhost:8080/JSP-Servlet/About">About</a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="http://localhost:8080/JSP-Servlet/Contact">Contact</a></li>
                     </ul>
                 </div>
