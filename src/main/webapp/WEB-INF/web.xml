@@ -14,9 +14,33 @@
 		<servlet-name>HomeServlet</servlet-name>
 		<servlet-class>frontend.HomeServlet</servlet-class>
 	</servlet>
+	<servlet>
+		<servlet-name>PostServlet</servlet-name>
+		<servlet-class>frontend.PostServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AboutServlet</servlet-name>
+		<servlet-class>frontend.AboutServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ContactServlet</servlet-name>
+		<servlet-class>frontend.ContactServlet</servlet-class>
+	</servlet>
 	
 	<servlet-mapping>
 		<servlet-name>HomeServlet</servlet-name>
 		<url-pattern>/Home</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>PostServlet</servlet-name>
+		<url-pattern>/Post</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AboutServlet</servlet-name>
+		<url-pattern>/About</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ContactServlet</servlet-name>
+		<url-pattern>/Contact</url-pattern>
 	</servlet-mapping>
 </web-app>
