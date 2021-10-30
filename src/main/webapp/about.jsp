@@ -39,7 +39,7 @@
 						      <li><hr class="dropdown-divider"></li>
 						      <li><a class="dropdown-item" href="#">Separated link</a></li>
 						    </ul>
-						  </li>
+						</li>
 						<li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="http://localhost:8080/JSP-Servlet/About">About</a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="http://localhost:8080/JSP-Servlet/Contact">Contact</a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#">Login</a></li>
